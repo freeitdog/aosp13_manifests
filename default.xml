@@ -1187,5 +1187,5 @@
   <project path="tools/treble" name="platform/tools/treble" groups="tools,pdk" />
   <project path="tools/trebuchet" name="platform/tools/trebuchet" groups="tools,cts,pdk,pdk-cw-fs,pdk-fs" />
   <!-- END open-source projects -->
-  <project path="device/itdog" name="freeitdog/aosp13_product_pure" remote="git" />
+  <project path="device/itdog" name="freeitdog/aosp13_product_pure" remote="git" revision="aosp13_r40"/>
 </manifest>
