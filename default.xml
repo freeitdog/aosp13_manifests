@@ -4,6 +4,9 @@
   <remote  name="aosp"
            fetch="https://aosp.tuna.tsinghua.edu.cn/"
            review="https://android-review.googlesource.com/" />
+  <remote  name="git"
+           fetch="https://github.com/" />
+
   <default revision="refs/tags/android-13.0.0_r40"
            remote="aosp"
            sync-j="4" />
@@ -1184,4 +1187,5 @@
   <project path="tools/treble" name="platform/tools/treble" groups="tools,pdk" />
   <project path="tools/trebuchet" name="platform/tools/trebuchet" groups="tools,cts,pdk,pdk-cw-fs,pdk-fs" />
   <!-- END open-source projects -->
+  <project path="device/itdog" name="freeitdog/aosp13_product_pure" />
 </manifest>
